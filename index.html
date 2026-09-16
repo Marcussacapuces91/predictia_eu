@@ -1,1 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PredictIA | Maintenance prédictive intelligente</title>
 
+<style>
+
+:root{
+    --primary:#1E40AF;
+    --primary-light:#3B82F6;
+    --secondary:#0F172A;
+    --accent:#10B981;
+    --light:#F8FAFC;
+    --text:#334155;
+    --border:#E2E8F0;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.6;
+    color:var(--text);
+    background:white;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 24px;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+    border-bottom:1px solid var(--border);
+    z-index:100;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:72px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:var(--primary);
+}
+
+.logo span{
+    color:var(--accent);
+}
+
+.nav-links{
+    display:flex;
+    gap:32px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:500;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-primary:hover{
+    background:var(--primary-light);
+}
+
+.hero{
+    padding:100px 0;
+    background:
+    linear-gradient(135deg,#0F172A 0%,#1E40AF 100%);
+    color:white;
+}
+
+.hero-content{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:24px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:32px;
+    opacity:0.9;
+}
+
+.hero-card{
+    background:white;
+    color:#111827;
+    padding:32px;
+    border-radius:16px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+.hero-card h3{
+    margin-bottom:20px;
+}
+
+.metric{
+    padding:16px 0;
+    border-bottom:1px solid var(--border);
+}
+
+.metric strong{
+    color:var(--primary);
+    font-size:20px;
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:var(--secondary);
+    margin-bottom:16px;
+}
+
+.section-title p{
+    max-width:700px;
+    margin:auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:24px;
+}
+
+.card{
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:30px;
+    background:white;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:var(--secondary);
+}
+
+.process{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+}
+
+.step{
+    text-align:center;
+}
+
+.step-number{
+    width:70px;
+    height:70px;
+    margin:auto auto 20px;
+    background:var(--primary);
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.light{
+    background:var(--light);
+}
+
+.benefits{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.benefit{
+    padding:24px;
+    border-left:5px solid var(--accent);
+    background:white;
+}
+
+.cta{
+    background:linear-gradient(135deg,#1E40AF,#3B82F6);
+    color:white;
+    text-align:center;
+}
+
+.cta h2{
+    margin-bottom:20px;
+    font-size:42px;
+}
+
+.cta p{
+    margin-bottom:30px;
+    font-size:20px;
+}
+
+footer{
+    background:#0F172A;
+    color:white;
+    text-align:center;
+    padding:40px 0;
+}
+
+footer a{
+    color:white;
+}
+
+@media(max-width:900px){
+
+.hero-content{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.process{
+    grid-template-columns:1fr;
+}
+
+.benefits{
+    grid-template-columns:1fr;
+}
+
+.nav-links{
+    display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Predict<span>IA</span></div>
+
+<div class="nav-links">
+<a href="#olution</a>
+<a href="#usagege</a>
+<aenefitsBénéfices</a>
+<a hreftContact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<div>
+
+<h1>Anticipez les pannes avant qu'elles n'interrompent votre activité.</h1>
+
+<p>
+PredictIA connecte vos équipements critiques,
+analyse leur comportement en temps réel
+et déclenche les actions de maintenance avant la défaillance.
+</p>
+
+#contact
+Demander une démonstration
+</a>
+
+</div>
+
+<div class="hero-card">
+
+<h3>Pourquoi PredictIA ?</h3>
+
+<div class="metric">
+<strong>Réduction des arrêts</strong><br>
+Détection précoce des anomalies
+</div>
+
+<div class="metric">
+<strong>Maintenance prédictive</strong><br>
+Intervenir avant la panne
+</div>
+
+<div class="metric">
+<strong>Pilotage énergétique</strong><br>
+Suivi eau, gaz et électricité
+</div>
+
+<div class="metric">
+<strong>Déploiement rapide</strong><br>
+Capteurs IoT connectés en quelques heures
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>Le problème</h2>
+<p>
+La majorité des équipements techniques montrent
+des signes de faiblesse plusieurs jours ou plusieurs semaines
+avant la panne réelle.
+Ces signaux sont rarement détectés suffisamment tôt.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Chambre froide</h3>
+<p>
+Perte de produits, dérive de température,
+compresseur vieillissant.
+</p>
+</div>
+
+<div class="card">
+<h3>Chaudière ou PAC</h3>
+<p>
+Baisse de rendement,
+surconsommation,
+risque d'arrêt en période critique.
+</p>
+</div>
+
+<div class="card">
+<h3>Pompe ou compresseur</h3>
+<p>
+Usure progressive,
+vibrations anormales,
+dégradation invisible.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="light" id="solution">
+
+<div class="container">
+
+<div class="section-title">
+<h2>La solution PredictIA</h2>
+
+<p>
+Une plateforme de maintenance prédictive simple à déployer,
+capable d'analyser les comportements réels des équipements.
+</p>
+</div>
+
+<div class="process">
+
+<div class="step">
+<div class="step-number">1</div>
+<h3>Connecter</h3>
+<p>Capteurs IoT LoRaWAN et collecte de données.</p>
+</div>
+
+<div class="step">
+<div class="step-number">2</div>
+<h3>Analyser</h3>
+<p>Surveillance continue des indicateurs critiques.</p>
+</div>
+
+<div class="step">
+<div class="step-number">3</div>
+<h3>Prédire</h3>
+<p>Détection de dérives et évaluation des risques.</p>
+</div>
+
+<div class="step">
+<div class="step-number">4</div>
+<h3>Agir</h3>
+<p>Alerter ou déclencher l'intervention adaptée.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="usage">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Cas d'usage</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Froid commercial</h3>
+<p>
+Chambres froides, vitrines réfrigérées,
+congélation et restauration.
+</p>
+</div>
+
+<div class="card">
+<h3>Chauffage</h3>
+<p>
+Chaudières gaz, fioul,
+pompes à chaleur,
+chaufferies collectives.
+</p>
+</div>
+
+<div class="card">
+<h3>Bâtiments</h3>
+<p>
+Suivi énergétique,
+surveillance des installations techniques.
+</p>
+</div>
+
+<div class="card">
+<h3>Industrie</h3>
+<p>
+Pompes, moteurs,
+compresseurs,
+ventilation et équipements critiques.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="light" id="benefits">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Bénéfices</h2>
+</div>
+
+<div class="benefits">
+
+<div class="benefit">
+<h3>Moins de pannes</h3>
+<p>
+Détection précoce des comportements anormaux avant l'arrêt.
+</p>
+</div>
+
+<div class="benefit">
+<h3>Moins de coûts</h3>
+<p>
+Réduction des interventions d'urgence et des pertes d'exploitation.
+</p>
+</div>
+
+<div class="benefit">
+<h3>Plus de disponibilité</h3>
+<p>
+Amélioration de la continuité de service des équipements.
+</p>
+</div>
+
+<div class="benefit">
+<h3>Performance énergétique</h3>
+<p>
+Analyse des consommations eau, gaz et électricité.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta" id="contact">
+
+<div class="container">
+
+<h2>Construisons la maintenance de demain</h2>
+
+<p>
+PredictIA transforme les données de terrain
+en décisions opérationnelles.
+</p>
+
+<a href="mailto:contact@predictia.eu" class="btn btn-primary">
+contact@predictia.eu
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="container">
+
+<h3>PredictIA</h3>
+
+<p>
+Maintenance prédictive intelligente pour équipements critiques.
+</p>
+
+<br>
+
+<p>
+© 2026 PredictIA • Tous droits réservés
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
+  
