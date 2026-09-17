@@ -1,130 +1,504 @@
-# predictia.eu
-
-## Présentation
-
-**predictia.eu** est un concept conçu avec l’aide de l’intelligence artificielle pour développer une infrastructure numérique et organisationnelle dédiée à la surveillance intelligente des équipements, des locaux et des processus.
-
-La solution permet à des tiers — entreprises, exploitants, gestionnaires de bâtiments ou particuliers — de recevoir des alertes contextualisées et enrichies à partir de données collectées par des composants IoT (*Internet of Things*).
-
-Ces composants mesurent notamment :
-
-- la température et l’humidité ;
-- la pression et la qualité de l’air ;
-- la luminosité ;
-- les vibrations et les signes précurseurs de panne ;
-- la consommation électrique ;
-- l’état de marche ou d’arrêt d’un équipement ;
-- l’ouverture et la fermeture de portes, fenêtres ou accès ;
-- toute autre grandeur physique pertinente pour le système surveillé.
-
-L’objectif ne consiste pas uniquement à remonter une valeur ou à déclencher une alarme. predictia.eu vise à transformer les données brutes en **informations utiles à la décision** : détection d’anomalies, hiérarchisation des incidents, analyse de tendances, recommandations d’action et suivi de la résolution.
-
-## Proposition de valeur
-
-predictia.eu aide ses clients à :
-
-- réduire les arrêts et les défaillances grâce à une détection précoce ;
-- limiter les pertes liées aux incidents, aux fuites, aux surchauffes ou aux consommations anormales ;
-- améliorer la maintenance préventive et conditionnelle ;
-- renforcer la sécurité des locaux et des équipements ;
-- suivre et réduire les consommations énergétiques ;
-- centraliser les alertes dans une interface unique ;
-- disposer d’un historique exploitable pour analyser les événements et améliorer les procédures.
-
-Les alertes peuvent être enrichies avec le contexte nécessaire à leur traitement : équipement concerné, niveau de criticité, évolution de la mesure, conditions de déclenchement, personnes à prévenir, procédure recommandée et statut de l’intervention.
-
-## Fonctionnement général
-
-1. **Collecte** : des capteurs et actionneurs IoT recueillent les mesures sur le terrain.
-2. **Transmission** : les données sont acheminées vers une plateforme sécurisée, en fonction des contraintes de connectivité et d’autonomie.
-3. **Analyse** : des règles métier, des seuils, des corrélations et, lorsque cela est pertinent, des modèles d’intelligence artificielle détectent les situations inhabituelles.
-4. **Alerte** : le client reçoit une notification adaptée au niveau d’urgence et au canal choisi.
-5. **Action** : l’incident est affecté, suivi et documenté jusqu’à sa résolution.
-6. **Amélioration continue** : l’historique des événements permet d’affiner les seuils, les modèles et les procédures.
-
-## Modèle économique
-
-Le modèle économique repose sur une combinaison de revenus récurrents et de prestations de déploiement. Cette approche permet de proposer une solution accessible au démarrage tout en couvrant les coûts d’intégration, de connectivité, d’hébergement et de support.
-
-### 1. Frais de mise en service
-
-Une prestation initiale peut couvrir :
-
-- l’étude du besoin et l’identification des points à surveiller ;
-- le choix et l’installation des capteurs ;
-- la configuration de la plateforme et des règles d’alerte ;
-- la connexion aux outils existants du client ;
-- la formation des utilisateurs ;
-- la documentation et la recette du dispositif.
-
-Ces frais peuvent être facturés au forfait ou selon la complexité du site et du nombre d’équipements concernés.
-
-### 2. Abonnement logiciel
-
-Un abonnement mensuel ou annuel donne accès à la plateforme et peut être modulé selon :
-
-- le nombre de sites surveillés ;
-- le nombre de capteurs et d’équipements ;
-- le volume de données traité ;
-- le nombre d’utilisateurs et de destinataires d’alertes ;
-- les fonctionnalités disponibles ;
-- le niveau de conservation de l’historique et de reporting.
-
-Plusieurs niveaux peuvent être proposés :
-
-- **Essentiel** : supervision, seuils simples, notifications et historique ;
-- **Professionnel** : alertes enrichies, tableaux de bord, gestion des incidents, rapports et intégrations ;
-- **Avancé** : détection d’anomalies, maintenance prédictive, automatisations, API, rôles avancés et engagements de service renforcés.
-
-### 3. Matériel et connectivité
-
-Le matériel peut être vendu, loué ou proposé sous forme d’abonnement incluant le remplacement et la maintenance. La connectivité — par exemple via réseau cellulaire, Wi-Fi, LoRaWAN ou une autre technologie adaptée — peut être incluse dans l’abonnement ou facturée séparément selon le cas d’usage.
-
-Cette flexibilité permet de répondre aussi bien aux petits déploiements qu’aux installations multi-sites nécessitant une gestion complète du parc IoT.
-
-### 4. Services complémentaires
-
-Des revenus additionnels peuvent provenir de services à forte valeur ajoutée :
-
-- maintenance et remplacement des équipements ;
-- paramétrage avancé des règles métier ;
-- audits énergétiques et recommandations d’optimisation ;
-- intégration avec des logiciels de maintenance, de supervision ou de gestion ;
-- développement de connecteurs et d’API spécifiques ;
-- accompagnement des équipes et amélioration des procédures ;
-- rapports personnalisés et analyses périodiques ;
-- astreinte ou support prioritaire selon le niveau de service souscrit.
-
-## Clients et marchés ciblés
-
-Le concept peut s’adresser notamment :
-
-- aux sites industriels et ateliers ;
-- aux commerces, entrepôts et bâtiments tertiaires ;
-- aux gestionnaires immobiliers et syndics ;
-- aux exploitants d’installations techniques ;
-- aux établissements de santé, de recherche ou d’enseignement ;
-- aux entreprises souhaitant piloter leur consommation énergétique ;
-- aux particuliers et petites structures ayant besoin d’une surveillance simple et fiable.
-
-## Stratégie de développement
-
-Le déploiement peut commencer par un cas d’usage précis et mesurable — par exemple la surveillance de températures, la détection de consommation anormale ou la prévention d’une panne — avant d’étendre progressivement la couverture à d’autres équipements et d’autres sites.
-
-Cette approche permet de démontrer rapidement le retour sur investissement, de réduire les risques de déploiement et d’adapter la solution aux besoins réels des utilisateurs.
-
-## Principes de confiance
-
-La réussite de predictia.eu dépend de la fiabilité des alertes, de la sécurité des données et de la transparence du service. L’architecture devra donc accorder une attention particulière à :
-
-- la sécurité des communications et des accès ;
-- la protection des données et le respect du RGPD ;
-- la traçabilité des mesures et des alertes ;
-- la disponibilité de la plateforme ;
-- la limitation des fausses alertes ;
-- la possibilité pour le client de récupérer ses données ;
-- l’interopérabilité avec les équipements et logiciels existants.
+# PredictIA
 
 ## Vision
 
-predictia.eu a pour ambition de rendre la surveillance intelligente plus accessible, plus compréhensible et plus directement exploitable. En combinant l’IoT, l’analyse des données et l’intelligence artificielle, la plateforme doit permettre de passer d’une réaction aux incidents à une démarche proactive de prévention, d’optimisation et d’amélioration continue.
+**PredictIA** est une plateforme d'hypervision intelligente conçue pour transformer les données du terrain en informations opérationnelles exploitables.
+
+L'objectif est d'aider les organisations à détecter les situations anormales plus tôt, comprendre leur contexte et prendre les bonnes décisions au bon moment.
+
+PredictIA ne se limite pas à la collecte de mesures ou à la génération d'alertes. La plateforme vise à fournir une capacité complète d'observation, d'analyse et d'aide à la décision à partir de données provenant d'équipements, de bâtiments, d'infrastructures ou de processus métiers.
+
+---
+
+# Positionnement
+
+PredictIA est une plateforme numérique de collecte, d'analyse et d'exploitation de données terrain.
+
+Elle transforme des données brutes en :
+
+- alertes contextualisées ;
+- indicateurs opérationnels ;
+- tableaux de bord décisionnels ;
+- analyses de tendances ;
+- recommandations d'action ;
+- automatisations de traitement.
+
+La maintenance prédictive constitue l'un des premiers domaines d'application de la plateforme, mais son périmètre est volontairement plus large.
+
+---
+
+# Positionnement et limites d'usage
+
+PredictIA est une plateforme d'hypervision et d'aide à la décision.
+
+La plateforme est conçue pour consolider, analyser et restituer des informations provenant de systèmes techniques existants.
+
+Elle apporte une vision transverse et contextualisée de l'état d'un parc d'équipements, de bâtiments ou d'infrastructures.
+
+---
+
+## Ce que PredictIA est
+
+PredictIA est destiné à :
+
+- observer ;
+- consolider ;
+- corréler ;
+- analyser ;
+- historiser ;
+- restituer ;
+- faciliter la prise de décision.
+
+La plateforme fournit une couche d'hypervision permettant d'exploiter des informations provenant de multiples sources afin d'améliorer la compréhension d'une situation opérationnelle.
+
+---
+
+## Ce que PredictIA n'est pas
+
+PredictIA n'est pas un système de supervision industrielle destiné à la conduite des procédés.
+
+La plateforme ne doit pas être utilisée pour :
+
+- piloter un procédé industriel ;
+- assurer une fonction de contrôle-commande ;
+- garantir la conduite opérationnelle d'une installation ;
+- exécuter une fonction instrumentée de sécurité ;
+- assurer une fonction de protection des personnes ou des biens ;
+- remplacer un automate industriel ;
+- remplacer un système SCADA ;
+- remplacer un système DCS ;
+- remplacer une supervision de conduite réglementaire.
+
+PredictIA ne doit jamais constituer un composant nécessaire au fonctionnement normal d'une installation industrielle.
+
+---
+
+## Position dans l'architecture
+
+PredictIA est conçu comme un système situé en dehors de la chaîne opérationnelle des procédés.
+
+La plateforme peut consommer des informations provenant :
+
+- d'automates ;
+- de systèmes SCADA ;
+- de systèmes de supervision ;
+- de systèmes d'information ;
+- de plateformes IoT ;
+- d'applications métiers.
+
+Toutefois, PredictIA ne doit pas être intégré comme un maillon indispensable au fonctionnement ou à la sécurité d'un procédé.
+
+La perte temporaire ou définitive de PredictIA ne doit empêcher ni :
+
+- le fonctionnement des équipements ;
+- la conduite des installations ;
+- les mécanismes de sécurité ;
+- les fonctions réglementaires de supervision ;
+- les dispositifs de protection.
+
+---
+
+## Disponibilité et niveaux de service
+
+Même lorsqu'elle est exploitée avec un haut niveau de disponibilité, la plateforme n'a pas vocation à fournir les garanties nécessaires à la conduite d'un procédé industriel.
+
+Les informations fournies par PredictIA doivent être considérées comme une aide à la décision et non comme une source unique permettant de piloter ou sécuriser une installation.
+
+Les délais de collecte, de transmission, de traitement ou de restitution peuvent être incompatibles avec les contraintes temps réel imposées par certains procédés industriels.
+
+---
+
+## Principe fondamental
+
+PredictIA assiste :
+
+- les exploitants ;
+- les mainteneurs ;
+- les gestionnaires ;
+- les décideurs.
+
+PredictIA ne se substitue jamais aux systèmes chargés de conduire, contrôler ou sécuriser les processus opérationnels.
+
+---
+
+# Problématique
+
+Les organisations disposent aujourd'hui d'un volume croissant de données provenant de multiples sources :
+
+- capteurs IoT ;
+- équipements industriels ;
+- bâtiments techniques ;
+- systèmes de supervision ;
+- logiciels métiers ;
+- plateformes cloud ;
+- infrastructures connectées.
+
+Ces données sont souvent :
+
+- dispersées ;
+- cloisonnées ;
+- difficiles à interpréter ;
+- insuffisamment corrélées ;
+- exploitées trop tardivement.
+
+Dans de nombreux cas, les équipes réagissent après l'apparition d'un incident alors que des signaux précurseurs étaient déjà présents.
+
+PredictIA vise à réduire cet écart entre la donnée disponible et la décision opérationnelle.
+
+---
+
+# Proposition de valeur
+
+PredictIA permet à ses utilisateurs de :
+
+- détecter plus rapidement les situations anormales ;
+- réduire les interruptions de service ;
+- améliorer la disponibilité des équipements ;
+- renforcer la maîtrise des consommations ;
+- faciliter la traçabilité des événements ;
+- améliorer la réactivité des équipes ;
+- soutenir les décisions opérationnelles ;
+- favoriser une approche préventive plutôt que corrective.
+
+La valeur n'est pas produite par la donnée elle-même mais par sa transformation en information utile à l'action.
+
+---
+
+# Cas d'usage
+
+## Maintenance prédictive
+
+Détection anticipée des dérives susceptibles d'aboutir à une défaillance.
+
+Exemples :
+
+- moteurs ;
+- pompes ;
+- compresseurs ;
+- équipements thermiques ;
+- installations industrielles ;
+- équipements critiques de production.
+
+Objectifs :
+
+- réduire les pannes ;
+- réduire les arrêts non planifiés ;
+- optimiser les opérations de maintenance.
+
+---
+
+## Performance énergétique
+
+Suivi et analyse des consommations :
+
+- électricité ;
+- gaz ;
+- eau ;
+- énergie thermique.
+
+Objectifs :
+
+- identifier les surconsommations ;
+- détecter les dérives ;
+- améliorer l'efficacité énergétique ;
+- réduire les coûts d'exploitation.
+
+---
+
+## Surveillance des bâtiments
+
+Surveillance des paramètres techniques :
+
+- température ;
+- humidité ;
+- qualité de l'air ;
+- luminosité ;
+- ouverture d'accès ;
+- installations techniques.
+
+Objectifs :
+
+- améliorer les conditions d'exploitation ;
+- anticiper les incidents ;
+- renforcer la sécurité des biens et des personnes.
+
+---
+
+## Supervision d'exploitation
+
+Centralisation d'événements issus de sources multiples.
+
+Objectifs :
+
+- visualiser l'activité opérationnelle ;
+- suivre les incidents ;
+- coordonner les interventions ;
+- conserver un historique exploitable.
+
+---
+
+# Fonctionnement général
+
+## Collecter
+
+Les données sont produites par :
+
+- des capteurs ;
+- des équipements connectés ;
+- des systèmes industriels ;
+- des logiciels métiers ;
+- des plateformes externes ;
+- des interfaces de programmation (API).
+
+---
+
+## Transporter
+
+Les données sont acheminées selon les contraintes du terrain et des usages.
+
+Les technologies peuvent notamment inclure :
+
+- LoRaWAN ;
+- Wi‑Fi ;
+- Ethernet ;
+- réseau cellulaire ;
+- protocoles industriels ;
+- interfaces applicatives.
+
+---
+
+## Analyser
+
+La plateforme applique plusieurs niveaux de traitement :
+
+- filtrage ;
+- agrégation ;
+- règles métiers ;
+- seuils ;
+- corrélations ;
+- analyses statistiques ;
+- modèles d'intelligence artificielle lorsque cela apporte une valeur ajoutée.
+
+---
+
+## Décider
+
+Les résultats sont présentés sous forme :
+
+- d'alertes ;
+- d'indicateurs ;
+- de tableaux de bord ;
+- de rapports ;
+- de recommandations.
+
+---
+
+## Agir
+
+Les événements détectés peuvent :
+
+- faire l'objet d'une notification ;
+- être affectés à un responsable ;
+- déclencher un processus métier ;
+- être intégrés à un système tiers ;
+- participer à des mécanismes d'automatisation.
+
+---
+
+# Architecture fonctionnelle
+
+PredictIA repose sur plusieurs capacités fonctionnelles complémentaires.
+
+## Acquisition des données
+
+Collecte des données provenant des équipements et systèmes connectés.
+
+## Gestion des événements
+
+Traitement, enrichissement et qualification des événements détectés.
+
+## Analyse
+
+Application des règles métiers, analyses et modèles de détection.
+
+## Restitution
+
+Présentation des informations sous forme d'interfaces, rapports et alertes.
+
+## Intégration
+
+Connexion aux applications et services tiers.
+
+## Administration
+
+Gestion des utilisateurs, des rôles, des paramètres et des règles.
+
+---
+
+# Principes d'architecture
+
+Le développement de PredictIA repose sur plusieurs principes fondamentaux.
+
+## Ouverture
+
+La plateforme doit pouvoir s'interfacer avec des systèmes hétérogènes.
+
+## Modularité
+
+Chaque composant doit pouvoir évoluer indépendamment.
+
+## Scalabilité
+
+L'architecture doit pouvoir accompagner la croissance des déploiements.
+
+## Traçabilité
+
+Les données, traitements et décisions doivent pouvoir être retracés.
+
+## Résilience
+
+La continuité de service constitue un objectif permanent de conception.
+
+## Interopérabilité
+
+La plateforme doit limiter les dépendances excessives à un fournisseur ou à une technologie particulière.
+
+## Séparation des responsabilités
+
+L'hypervision ne doit jamais être confondue avec la conduite opérationnelle.
+
+PredictIA demeure un système d'observation, d'analyse et d'aide à la décision.
+
+Les fonctions de contrôle, de régulation, de protection et de sécurité doivent rester assurées par les systèmes spécifiquement conçus à cet effet.
+
+---
+
+# Sécurité et confiance
+
+La confiance constitue un facteur majeur d'adoption.
+
+PredictIA doit intégrer nativement :
+
+- la sécurisation des communications ;
+- le contrôle des accès ;
+- la gestion des identités ;
+- la journalisation des actions ;
+- la protection des données ;
+- la traçabilité des événements ;
+- le respect des exigences réglementaires applicables ;
+- la conformité au RGPD lorsque nécessaire.
+
+---
+
+# Modèle économique
+
+Le modèle économique repose sur plusieurs sources de revenus complémentaires.
+
+## Mise en service
+
+Prestations pouvant inclure :
+
+- étude préalable ;
+- définition du besoin ;
+- installation ;
+- paramétrage ;
+- intégration ;
+- formation.
+
+---
+
+## Abonnement plateforme
+
+La tarification peut dépendre de :
+
+- la volumétrie de données ;
+- le nombre d'équipements ;
+- le nombre de sites ;
+- le nombre d'utilisateurs ;
+- les fonctionnalités souscrites ;
+- le niveau de service attendu.
+
+---
+
+## Matériel et connectivité
+
+Selon les besoins :
+
+- vente ;
+- location ;
+- abonnement ;
+- fourniture de connectivité.
+
+---
+
+## Services complémentaires
+
+Services à valeur ajoutée :
+
+- support ;
+- maintenance ;
+- conseil ;
+- audits ;
+- intégration ;
+- développement spécifique ;
+- accompagnement métier.
+
+---
+
+# Marchés cibles
+
+PredictIA peut s'adresser notamment :
+
+- aux sites industriels ;
+- aux ateliers de production ;
+- aux exploitants techniques ;
+- aux gestionnaires immobiliers ;
+- aux syndics ;
+- aux bâtiments tertiaires ;
+- aux commerces ;
+- aux entrepôts logistiques ;
+- aux établissements de santé ;
+- aux établissements d'enseignement ;
+- aux collectivités ;
+- aux particuliers ayant des besoins de surveillance avancée.
+
+---
+
+# Stratégie de développement
+
+L'approche privilégiée consiste à partir d'un cas d'usage concret et immédiatement mesurable.
+
+Exemples :
+
+- surveillance de températures ;
+- détection de surconsommations ;
+- suivi d'équipements critiques ;
+- surveillance d'installations techniques.
+
+Cette stratégie permet :
+
+- de démontrer rapidement la valeur apportée ;
+- de limiter les risques de déploiement ;
+- d'adapter progressivement la plateforme aux besoins réels.
+
+---
+
+# Vision à long terme
+
+L'ambition de PredictIA est de devenir une plateforme de référence pour l'exploitation intelligente des données terrain.
+
+En combinant :
+
+- objets connectés ;
+- systèmes d'information ;
+- analyse de données ;
+- intelligence artificielle ;
+- automatisation ;
+
+PredictIA vise à accompagner la transition :
+
+- d'une logique réactive vers une logique proactive ;
+- d'une surveillance passive vers un pilotage intelligent ;
+- d'une accumulation de données vers une véritable aide à la décision.
+
+L'objectif final est de permettre aux utilisateurs de comprendre plus rapidement ce qui se passe, d'anticiper ce qui pourrait arriver et d'agir de manière plus efficace.
