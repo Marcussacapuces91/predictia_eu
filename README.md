@@ -78,6 +78,10 @@ PredictIA ne doit jamais constituer un composant nécessaire au fonctionnement n
 PredictIA est conçu comme un système situé en dehors de la chaîne opérationnelle des procédés.
 
 La plateforme peut consommer des informations provenant :
+- de ses propres capteurs IoT principalement ;
+- de composants des tiers au travers d'une API proposée par l'infrastructure (mode push) ;
+
+En aucun cas, la plateforme consommera **directement** des données :
 
 - d'automates ;
 - de systèmes SCADA ;
@@ -86,7 +90,7 @@ La plateforme peut consommer des informations provenant :
 - de plateformes IoT ;
 - d'applications métiers.
 
-Toutefois, PredictIA ne doit pas être intégré comme un maillon indispensable au fonctionnement ou à la sécurité d'un procédé.
+Ainsi elle pourra pas produire d'effet de bord sur ces systèmes qui lui serait, à tord ou à raison, imputable (surcharge, interruption de ces services, etc.)
 
 La perte temporaire ou définitive de PredictIA ne doit empêcher ni :
 
@@ -220,7 +224,7 @@ Objectifs :
 
 - améliorer les conditions d'exploitation ;
 - anticiper les incidents ;
-- renforcer la sécurité des biens et des personnes.
+- renforcer la sécurité des biens et des personnes (sans que cela n'en fasse une solution de sureté).
 
 ---
 
@@ -243,12 +247,14 @@ Objectifs :
 
 Les données sont produites par :
 
-- des capteurs ;
+- des capteurs principalement ;
+
+Il est aussi possible, à la charge du tiers, de remonter vers la plateforme, les données des :
+
 - des équipements connectés ;
 - des systèmes industriels ;
 - des logiciels métiers ;
-- des plateformes externes ;
-- des interfaces de programmation (API).
+- d'autres plateformes externes.
 
 ---
 
@@ -262,8 +268,7 @@ Les technologies peuvent notamment inclure :
 - Wi‑Fi ;
 - Ethernet ;
 - réseau cellulaire ;
-- protocoles industriels ;
-- interfaces applicatives.
+- protocoles industriels spécifiques.
 
 ---
 
@@ -290,6 +295,13 @@ Les résultats sont présentés sous forme :
 - de tableaux de bord ;
 - de rapports ;
 - de recommandations.
+
+Selon les besoins, ils peuvent être mis à disposition par plusieurs flux :
+
+- eMails,
+- SMS/MMS,
+- Pages Web,
+- Application spécifiques mobiles par exemple.
 
 ---
 
@@ -339,33 +351,13 @@ Gestion des utilisateurs, des rôles, des paramètres et des règles.
 
 Le développement de PredictIA repose sur plusieurs principes fondamentaux.
 
-## Ouverture
-
-La plateforme doit pouvoir s'interfacer avec des systèmes hétérogènes.
-
-## Modularité
-
-Chaque composant doit pouvoir évoluer indépendamment.
-
-## Scalabilité
-
-L'architecture doit pouvoir accompagner la croissance des déploiements.
-
-## Traçabilité
-
-Les données, traitements et décisions doivent pouvoir être retracés.
-
-## Résilience
-
-La continuité de service constitue un objectif permanent de conception.
-
-## Interopérabilité
-
-La plateforme doit limiter les dépendances excessives à un fournisseur ou à une technologie particulière.
-
-## Séparation des responsabilités
-
-L'hypervision ne doit jamais être confondue avec la conduite opérationnelle.
+- **Ouverture** : La plateforme doit pouvoir s'interfacer avec des systèmes hétérogènes.
+- **Modularité** : Chaque composant doit pouvoir évoluer indépendamment.
+- **Scalabilité** : L'architecture doit pouvoir accompagner la croissance des déploiements.
+- **Traçabilité** : Les données, traitements et décisions doivent pouvoir être retracés.
+- **Résilience** : La continuité de service constitue un objectif permanent de conception.
+- **Interopérabilité** : La plateforme doit limiter les dépendances excessives à un fournisseur ou à une technologie particulière.
+- **Séparation des responsabilités** : L'hypervision ne doit jamais être confondue avec la conduite opérationnelle.
 
 PredictIA demeure un système d'observation, d'analyse et d'aide à la décision.
 
