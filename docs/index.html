@@ -10,8 +10,9 @@ description: PredictIA connecte vos équipements critiques, analyse leur comport
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>PredictIA | Maintenance prédictive intelligente</title>
-    <link rel="stylesheet" href="style.css">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" >
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 
 <body>
@@ -31,103 +32,87 @@ description: PredictIA connecte vos équipements critiques, analyse leur comport
         </div>
     </header>
 
-<section class="hero">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <h1>Anticipez les pannes avant qu'elles n'interrompent votre activité.</h1>
+                    <p>
+                        PredictIA connecte vos équipements critiques,
+                        analyse leur comportement en temps réel
+                        et déclenche les actions de maintenance avant la défaillance.
+                    </p>
+                
+                    <a href="mailto:contact@predictia.eu?subject=Demande%20d%27une%20d%C3%A9monstration" class="btn btn-primary">Demander une démonstration</a>
+                </div>
 
-<div class="container">
+                <div class="hero-card">
+                    <h3>Pourquoi PredictIA ?</h3>
+                    <div class="metric">
+                        <strong>Réduction des arrêts</strong><br>
+                        Détection précoce des anomalies
+                    </div>
 
-<div class="hero-content">
+                    <div class="metric">
+                        <strong>Maintenance prédictive</strong><br>
+                        Intervenir avant la panne
+                    </div>
 
-<div>
-    <h1>Anticipez les pannes avant qu'elles n'interrompent votre activité.</h1>
-    <p>
-    PredictIA connecte vos équipements critiques,
-    analyse leur comportement en temps réel
-    et déclenche les actions de maintenance avant la défaillance.
-    </p>
+                    <div class="metric">
+                        <strong>Pilotage énergétique</strong><br>
+                        Suivi eau, gaz et électricité
+                    </div>
 
-    <a href="mailto:contact@predictia.eu?subject=Demande%20d%27une%20d%C3%A9monstration" class="btn btn-primary">Demander une démonstration</a>
-</div>
+                    <div class="metric">
+                        <strong>Déploiement rapide</strong><br>
+                        Capteurs IoT connectés en quelques heures
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="hero-card">
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Le problème</h2>
+                <p>
+                    La majorité des équipements techniques montrent
+                    des signes de faiblesse plusieurs jours ou plusieurs semaines
+                    avant la panne réelle.
+                    Ces signaux sont rarement détectés suffisamment tôt.
+                </p>
+            </div>
 
-<h3>Pourquoi PredictIA ?</h3>
+            <div class="cards">
+                <div class="card">
+                    <h3>Chambre froide</h3>
+                    <p>
+                        Perte de produits, dérive de température,
+                        compresseur vieillissant.
+                    </p>
+                </div>
 
-<div class="metric">
-<strong>Réduction des arrêts</strong><br>
-Détection précoce des anomalies
-</div>
+                <div class="card">
+                    <h3>Chaudière ou PAC</h3>
+                    <p>
+                        Baisse de rendement,
+                        surconsommation,
+                        risque d'arrêt en période critique.
+                    </p>
+                </div>
 
-<div class="metric">
-<strong>Maintenance prédictive</strong><br>
-Intervenir avant la panne
-</div>
-
-<div class="metric">
-<strong>Pilotage énergétique</strong><br>
-Suivi eau, gaz et électricité
-</div>
-
-<div class="metric">
-<strong>Déploiement rapide</strong><br>
-Capteurs IoT connectés en quelques heures
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section>
-
-<div class="container">
-
-<div class="section-title">
-<h2>Le problème</h2>
-<p>
-La majorité des équipements techniques montrent
- des signes de faiblesse plusieurs jours ou plusieurs semaines
- avant la panne réelle.
-Ces signaux sont rarement détectés suffisamment tôt.
-</p>
-</div>
-
-<div class="cards">
-
-<div class="card">
-<h3>Chambre froide</h3>
-<p>
-Perte de produits, dérive de température,
-compresseur vieillissant.
-</p>
-</div>
-
-<div class="card">
-<h3>Chaudière ou PAC</h3>
-<p>
-Baisse de rendement,
-surconsommation,
-risque d'arrêt en période critique.
-</p>
-</div>
-
-<div class="card">
-<h3>Pompe ou compresseur</h3>
-<p>
-Usure progressive,
-vibrations anormales,
-dégradation invisible.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
+                <div class="card">
+                    <h3>Pompe ou compresseur</h3>
+                    <p>
+                    Usure progressive,
+                    vibrations anormales,
+                    dégradation invisible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <section class="light" id="solution">
@@ -176,7 +161,7 @@ capable d'analyser les comportements réels des équipements.
 </section>
 
 
-<section id="usage">
+<section id="usages">
 
 <div class="container">
 
