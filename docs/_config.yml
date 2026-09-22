@@ -1,0 +1,10 @@
+title: PredictIA | Maintenance prédictive intelligente
+description: Plateforme d'hypervision convergée et de maintenance prédictive intelligente.
+lang: fr
+encoding: utf-8
+url: https://predictia.eu
+
+theme: null
+
+include:
+  - style.css
