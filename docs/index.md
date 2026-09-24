@@ -149,11 +149,3 @@ description: PredictIA connecte vos équipements critiques, analyse leur comport
         </div>
     </div>
 </section>
-
-<section class="cta" id="contact">
-    <div class="container">
-        <h2>Construisons la maintenance de demain</h2>
-        <p>PredictIA transforme les données de terrain en décisions opérationnelles.</p>
-        <a href="mailto:contact@predictia.eu" class="btn btn-primary">contact@predictia.eu</a>
-    </div>
-</section>
