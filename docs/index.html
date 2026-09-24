@@ -6,28 +6,9 @@ description: PredictIA connecte vos équipements critiques, analyse leur comport
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
-
 {% include head.html %}
-
 <body>
-
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Predict<span>IA</span></div>
-
-                <div class="global-nav-links" aria-label="Navigation globale">
-                    <a href="{{ '/' | relative_url }}" class="global-home-link" aria-label="Accueil">
-                        <svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                            <path d="M3 10.5 12 3l9 7.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5v-9Z"></path>
-                            <path d="M9 21v-6h6v6"></path>
-                        </svg>
-                        <span>Accueil</span>
-                    </a>
-                </div>
-            </nav>
-        </div>
-    </header>
+{% include header.html %}
 
     <nav class="local-nav" aria-label="Navigation de la page">
         <div class="container">
