@@ -1,4 +1,4 @@
-extinction---
+---
 layout: null
 title: PredictIA | Maintenance prédictive intelligente
 description: PredictIA connecte vos équipements critiques, analyse leur comportement et anticipe les pannes.
