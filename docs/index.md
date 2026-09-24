@@ -1,0 +1,159 @@
+extinction---
+layout: null
+title: PredictIA | Maintenance prédictive intelligente
+description: PredictIA connecte vos équipements critiques, analyse leur comportement et anticipe les pannes.
+---
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div>
+                <h1>Anticipez les pannes avant qu'elles n'interrompent votre activité.</h1>
+                <p>PredictIA connecte vos équipements critiques, analyse leur comportement en temps réel et déclenche les actions de maintenance avant la défaillance.</p>
+                <a href="mailto:contact@predictia.eu?subject=Demande%20d%27une%20d%C3%A9monstration" class="btn btn-primary">Demander une démonstration</a>
+            </div>
+
+            <div class="hero-card">
+                <h3>Pourquoi PredictIA&nbsp;?</h3>
+                <div class="metric">
+                    <strong>Réduction des arrêts</strong><br>
+                    Détection précoce des anomalies
+                </div>
+                <div class="metric">
+                    <strong>Maintenance prédictive</strong><br>
+                    Intervenir avant la panne
+                </div>
+                <div class="metric">
+                    <strong>Pilotage énergétique</strong><br>
+                    Suivi eau, gaz et électricité
+                </div>
+                <div class="metric">
+                    <strong>Déploiement rapide</strong><br>
+                    Capteurs IoT connectés en quelques heures
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-title">
+            <h2>Le problème</h2>
+            <p>La majorité des équipements techniques montrent des signes de faiblesse plusieurs jours ou plusieurs semaines avant la panne réelle. Ces signaux sont rarement détectés suffisamment tôt pour éviter l'interruption.</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Chambre froide</h3>
+                <p>Perte de produits, dérive de température, compresseur vieillissant.</p>
+            </div>
+
+            <div class="card">
+                <h3>Chaudière ou PAC</h3>
+                <p>Baisse de rendement, surconsommation, risque d'arrêt en période critique.</p>
+            </div>
+
+            <div class="card">
+                <h3>Pompe ou compresseur</h3>
+                <p>Usure progressive, vibrations anormales, dégradation invisible.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="light" id="solution">
+    <div class="container">
+        <div class="section-title">
+            <h2>La solution PredictIA</h2>
+            <p>Une plateforme de maintenance prédictive simple à déployer, capable d'analyser les comportements réels des équipements.</p>
+        </div>
+        <div class="process">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Connecter</h3>
+                <p>Capteurs IoT indépendants et collecte de données.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Analyser</h3>
+                <p>Surveillance continue des indicateurs critiques.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Prédire</h3>
+                <p>Détection de dérives et évaluation des risques.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Agir</h3>
+                <p>Alerter ou déclencher l'intervention adaptée.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="usages">
+    <div class="container">
+        <div class="section-title">
+            <h2>Cas d'usage</h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h3>Froid commercial</h3>
+                <p>Chambres froides, vitrines réfrigérées, congélation et restauration.</p>
+            </div>
+            <div class="card">
+                <h3>Chauffage</h3>
+                <p>Chaudières gaz, fioul, pompes à chaleur, chaufferies collectives.</p>
+            </div>
+            <div class="card">
+                <h3>Bâtiments</h3>
+                <p>Suivi énergétique, surveillance des installations techniques.</p>
+            </div>
+            <div class="card">
+                <h3>Industrie</h3>
+                <p>Pompes, moteurs, compresseurs, ventilation et équipements critiques.</p>
+            </div>
+            <div class="card">
+                <h3>Éclairage et enseignes</h3>
+                <p>Contrôle de l'allumage, de l'extinction et des clignotements anormaux.</p>
+                <a href="eclairage-enseignes.html">Détailler ce cas...</a>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="light" id="benefits">
+    <div class="container">
+        <div class="section-title">
+            <h2>Bénéfices</h2>
+        </div>
+        <div class="benefits">
+            <div class="benefit">
+                <h3>Moins de pannes</h3>
+                <p>Détection précoce des comportements anormaux avant l'arrêt.</p>
+            </div>
+            <div class="benefit">
+                <h3>Moins de coûts</h3>
+                <p>Réduction des interventions d'urgence et des pertes d'exploitation.</p>
+            </div>
+            <div class="benefit">
+                <h3>Plus de disponibilité</h3>
+                <p>Amélioration de la continuité de service des équipements.</p>
+            </div>
+            <div class="benefit">
+                <h3>Performance énergétique</h3>
+                <p>Analyse des consommations eau, gaz et électricité.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contact">
+    <div class="container">
+        <h2>Construisons la maintenance de demain</h2>
+        <p>PredictIA transforme les données de terrain en décisions opérationnelles.</p>
+        <a href="mailto:contact@predictia.eu" class="btn btn-primary">contact@predictia.eu</a>
+    </div>
+</section>
