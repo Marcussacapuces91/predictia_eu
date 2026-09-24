@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: default
 title: PredictIA | Maintenance prédictive intelligente
 description: PredictIA connecte vos équipements critiques, analyse leur comportement et anticipe les pannes.
 ---
@@ -119,7 +119,7 @@ description: PredictIA connecte vos équipements critiques, analyse leur comport
                 <h3>Éclairage et enseignes</h3>
                 <p>Contrôle de l'allumage, de l'extinction et des clignotements anormaux.</p>
                 <a href="eclairage-enseignes.html">Détailler ce cas...</a>
-            </a>
+            </div>
         </div>
     </div>
 </section>
