@@ -6,7 +6,7 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
 
 <section class="case-hero">
     <div class="container">
-        <a href="{{ '/' | relative_url }}" class="back-link">← Retour à l'accueil</a>
+        <!-- <a href="{{ '/' | relative_url }}" class="back-link">← Retour à l'accueil</a> -->
         <div class="case-hero-content">
             <div>
                 <p class="eyebrow">Cas d'usage · Éclairage</p>
