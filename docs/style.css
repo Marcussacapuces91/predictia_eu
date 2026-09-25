@@ -21,6 +21,25 @@ body{
     background:white;
 }
 
+.eyebrow{
+    margin:0 0 12px;
+    color:var(--primary);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.12em;
+    line-height:1.4;
+    text-transform:uppercase;
+}
+
+.case-hero .eyebrow{
+    color:#93C5FD;
+}
+
+.section-title .eyebrow{
+    max-width:none;
+    margin:0 auto 12px;
+}
+
 .container{
     max-width:1200px;
     margin:auto;
