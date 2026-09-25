@@ -4,18 +4,29 @@ title: Éclairage et enseignes | PredictIA
 description: Surveillez le fonctionnement de vos luminaires et enseignes grâce à PredictIA.
 ---
 
-<section class="case-hero">
+<section class="hero">
     <div class="container">
-        <!-- <a href="{{ '/' | relative_url }}" class="back-link">← Retour à l'accueil</a> -->
-        <div class="case-hero-content">
+        <div class="hero-content">
             <div>
                 <p class="eyebrow">Cas d'usage · Éclairage</p>
                 <h1>Vos luminaires et enseignes fonctionnent-ils comme prévu&nbsp;?</h1>
                 <p class="case-intro">PredictIA surveille l'allumage, l'extinction et la qualité lumineuse pour détecter rapidement les dérives et faciliter l'intervention.</p>
             </div>
-            <div class="case-highlight">
-                <strong>Objectif</strong>
-                <span>Garantir un éclairage disponible, conforme aux horaires et sans défaut visible.</span>
+
+            <div class="hero-card">
+                <h3>Objectif</h3>
+                <div class="metric">
+                    <strong>Disponibilité</strong><br>
+                    Éclairage conforme aux horaires
+                </div>
+                <div class="metric">
+                    <strong>Qualité lumineuse</strong><br>
+                    Détection des dérives visibles
+                </div>
+                <div class="metric">
+                    <strong>Énergie</strong><br>
+                    Éviter l’allumage hors plage
+                </div>
             </div>
         </div>
     </div>
@@ -23,24 +34,24 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
 
 <section>
     <div class="container">
-        <div class="section-title case-section-title">
+        <div class="section-title">
             <p class="eyebrow">01 · Le problème</p>
             <h2>Un défaut d'éclairage peut rester invisible trop longtemps</h2>
-            <p>Une enseigne qui ne s'allume pas, un luminaire qui reste actif en journée ou un éclairage qui clignote dégrade la visibilité, l'image du site et la consommation énergétique. Sans suivi continu, le défaut n'est souvent constaté qu'au passage d'un agent ou après un signalement.</p>
+            <p>Une enseigne qui ne s'allume pas, un luminaire actif en journée ou un éclairage qui clignote dégrade la visibilité, l'image du site et la consommation énergétique.</p>
         </div>
 
-        <div class="cards case-grid">
+        <div class="cards">
             <div class="card">
                 <h3>Horaires non respectés</h3>
-                <p>Allumage tardif, extinction anticipée ou fonctionnement en dehors des plages prévues.</p>
+                <p>Allumage tardif, extinction anticipée ou fonctionnement hors plage.</p>
             </div>
             <div class="card">
                 <h3>Dérive lumineuse</h3>
-                <p>Écart entre l'état attendu et la luminosité réellement observée sur le site.</p>
+                <p>Écart entre l'état attendu et la luminosité réellement observée.</p>
             </div>
             <div class="card">
                 <h3>Défaut intermittent</h3>
-                <p>Scintillement, clignotement ou extinction répétée difficile à diagnostiquer.</p>
+                <p>Scintillement ou extinction répétée difficile à diagnostiquer.</p>
             </div>
         </div>
     </div>
@@ -48,27 +59,28 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
 
 <section class="light">
     <div class="container">
-        <div class="section-title case-section-title">
+        <div class="section-title">
             <p class="eyebrow">02 · Analyse et grandeurs mesurées</p>
             <h2>Comparer le fonctionnement réel avec le comportement attendu</h2>
         </div>
-        <div class="measurement-grid">
-            <div class="measurement-card">
+
+        <div class="cards">
+            <div class="card">
                 <span class="measurement-value">ON / OFF</span>
                 <h3>État lumineux</h3>
                 <p>Présence ou absence d'éclairage, par luminaire ou par zone.</p>
             </div>
-            <div class="measurement-card">
+            <div class="card">
                 <span class="measurement-value">Lux</span>
                 <h3>Luminosité</h3>
                 <p>Niveau lumineux mesuré et comparaison avec la lumière ambiante.</p>
             </div>
-            <div class="measurement-card">
+            <div class="card">
                 <span class="measurement-value">Hz</span>
                 <h3>Stabilité</h3>
                 <p>Variation rapide du signal pour repérer scintillement et clignotement.</p>
             </div>
-            <div class="measurement-card">
+            <div class="card">
                 <span class="measurement-value">Heure</span>
                 <h3>Chronologie</h3>
                 <p>Horodatage des transitions et respect du calendrier configuré.</p>
@@ -79,15 +91,16 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
 
 <section>
     <div class="container">
-        <div class="section-title case-section-title">
+        <div class="section-title">
             <p class="eyebrow">03 · Détections</p>
             <h2>Transformer les signaux en événements compréhensibles</h2>
         </div>
-        <div class="process detection-process">
+
+        <div class="process">
             <div class="step">
                 <div class="step-number">1</div>
                 <h3>Comparer</h3>
-                <p>Confronter l'état mesuré aux horaires et au scénario attendus.</p>
+                <p>Confronter l'état mesuré aux horaires attendus.</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
@@ -97,12 +110,12 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
             <div class="step">
                 <div class="step-number">3</div>
                 <h3>Confirmer</h3>
-                <p>Reconnaître une répétition, un scintillement ou une anomalie persistante.</p>
+                <p>Reconnaître une répétition ou une anomalie persistante.</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
                 <h3>Prioriser</h3>
-                <p>Classer l'alerte selon son urgence, sa durée et l'impact sur le site.</p>
+                <p>Classer l'alerte selon son urgence et son impact.</p>
             </div>
         </div>
     </div>
@@ -110,34 +123,35 @@ description: Surveillez le fonctionnement de vos luminaires et enseignes grâce 
 
 <section class="light">
     <div class="container">
-        <div class="case-layout">
-            <div>
-                <div class="section-title case-section-title case-section-title-left">
-                    <p class="eyebrow">04 · Affichage et alerte</p>
-                    <h2>Une information directement exploitable</h2>
-                    <p>Le tableau de bord présente l'état des équipements, les horaires observés, les dérives récentes et l'historique des événements. Chaque anomalie est associée à un niveau de criticité et à une recommandation.</p>
-                </div>
-                <div class="alert-list">
-                    <div class="alert-item">
-                        <span class="status-dot status-critical"></span>
-                        <div><strong>Critique · enseigne éteinte</strong><p>Allumage attendu depuis 15 minutes.</p></div>
-                    </div>
-                    <div class="alert-item">
-                        <span class="status-dot status-warning"></span>
-                        <div><strong>À vérifier · scintillement</strong><p>Variations répétées détectées sur 10 minutes.</p></div>
-                    </div>
-                    <div class="alert-item">
-                        <span class="status-dot status-ok"></span>
-                        <div><strong>Conforme · éclairage stable</strong><p>État et horaires respectés.</p></div>
-                    </div>
-                </div>
+        <div class="section-title">
+            <p class="eyebrow">04 · Affichage et alerte</p>
+            <h2>Une information directement exploitable</h2>
+            <p>Le tableau de bord présente l'état des équipements, les horaires observés, les dérives récentes et l'historique des événements.</p>
+        </div>
+
+        <div class="cards">
+            <div class="card alert-item">
+                <span class="status-dot status-critical"></span>
+                <strong>Critique · enseigne éteinte</strong>
+                <p>Allumage attendu depuis 15 minutes.</p>
             </div>
-            <div class="action-card">
-                <p class="eyebrow">05 · Axe de correction</p>
-                <h3>Passer du constat à l'intervention</h3>
-                <p>Selon le diagnostic, l'action peut être immédiate ou planifiée&nbsp;: vérifier l'alimentation, le relais ou la commande horaire, remplacer le module LED ou programmer une intervention de maintenance.</p>
-                <a href="mailto:contact@predictia.eu?subject=Cas%20d%27usage%20%C3%A9clairage%20et%20enseignes" class="btn btn-primary">Discuter de ce cas d'usage</a>
+            <div class="card alert-item">
+                <span class="status-dot status-warning"></span>
+                <strong>À vérifier · scintillement</strong>
+                <p>Variations répétées détectées sur 10 minutes.</p>
             </div>
+            <div class="card alert-item">
+                <span class="status-dot status-ok"></span>
+                <strong>Conforme · éclairage stable</strong>
+                <p>État et horaires respectés.</p>
+            </div>
+        </div>
+
+        <div class="action-card">
+            <p class="eyebrow">05 · Axe de correction</p>
+            <h3>Passer du constat à l'intervention</h3>
+            <p>Selon le diagnostic, l'action peut être immédiate ou planifiée : vérifier l'alimentation, le relais, remplacer le module LED ou programmer une intervention.</p>
+            <a href="mailto:contact@predictia.eu?subject=Cas%20d%27usage%20%C3%A9clairage%20et%20enseignes" class="btn btn-primary">Discuter de ce cas d'usage</a>
         </div>
     </div>
 </section>
